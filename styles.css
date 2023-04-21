@@ -56,7 +56,7 @@ body {
   width: 50%;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 4px;
+  padding: 15px;
 
   
   
@@ -87,7 +87,7 @@ body {
   width: 50%;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 4px;
+  padding: 15px;
   
 }
 
@@ -122,9 +122,9 @@ body {
   width: 25%;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 4px;
+  padding: 15px;
 
-  
+
   
 }
 
@@ -141,5 +141,5 @@ body {
   font-size: 20px; 
   line-height: 1.5; 
   color: #333;
-  text-align: center;
+  text-align: justify;
 }
