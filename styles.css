@@ -1,0 +1,116 @@
+/* Use the Open Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Style the header */
+header {
+  background-color: #293241;
+  color: white;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #293241;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+nav li a:hover {
+  color: #a5a5a5;
+}
+
+  
+
+body {
+    margin: 0;
+    background-color: rgb(239, 239, 239);
+}
+
+.main {
+  background-color: white;
+  margin: 100px auto;
+  width: 50%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 4px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.main h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+   margin-top: 50px;
+}
+
+.main p {
+ 
+
+  font-family: Arial, sans-serif; 
+  font-size: 25px; 
+  line-height: 1.5; 
+  color: #333;
+  text-align: center;
+}
+
+
+.bio {
+  background-color: white;
+  margin: 100px auto;
+  width: 50%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 4px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+.bio h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+   margin-top: 50px;
+}
+
+.bio p {
+ 
+
+  font-family: Arial, sans-serif; 
+  font-size: 20px; 
+  line-height: 1.5; 
+  color: #333;
+  text-align: center;
+}
