@@ -123,7 +123,8 @@ body {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: 15px;
-
+  position: relative;
+  height: 620px;
 
   
 }
@@ -133,7 +134,8 @@ body {
   font-weight: bold;
   color: #333;
   text-align: center;
-   margin-top: 50px;
+  margin-top: 50px;
+   
 }
 
 .maine p {
@@ -142,4 +144,16 @@ body {
   line-height: 1.5; 
   color: #333;
   text-align: justify;
+}
+
+img {
+  height: 120px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 5px;
 }
