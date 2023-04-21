@@ -157,3 +157,30 @@ img {
   transform: translateX(-50%);
   margin-bottom: 5px;
 }
+
+.mainp {
+  background-color: white;
+  margin: 100px auto;
+  width: 25%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  position: relative;
+}
+
+.mainp h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+   
+}
+
+.mainp p {
+  font-family: Arial, sans-serif; 
+  font-size: 20px; 
+  line-height: 1.5; 
+  color: #333;
+  text-align: justify;
+}
